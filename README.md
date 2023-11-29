@@ -1,36 +1,36 @@
-# Базовый шаблон для проекта с Three.js
+# Basic template for a project with Three.js
 
-## Описание
+## Description
 
-В ходе освоения библиотеки Three.js на курсе, не редко встречается практика. Именно для этого, был создан шаблонный репозиторий, для быстрого старта очередного проекта.
+During the course of mastering the Three.js library, practice is not uncommon. It is for this purpose that a template repository was created to quickly start the next project.
 
-Внутри шаблона:
+Inside the template:
 
--   Настроенная Webpack сборка
--   Настроен eslint и prettier
--   Предустановленные библиотеки `three` и `gsap`
--   Есть стартовая инициализция `three.js` сцены
+- Customized Webpack build
+- Configured eslint and prettier
+- Pre-installed libraries `three` and `gsap`
+- There is a starting initialization of the `three.js` scene
 
-## Начало работы
+## Beginning of work
 
-1. Воспользоваться данным репозиторием как шаблонным и создать себе свой репозиторий
-2. Клонировать себе свой репозиторий и установить зависимости:
-    ```bash
-    npm i
-    ```
-3. Для запуска сервера разработки с hot realod:
-    ```bash
-    npm run dev
-    ```
-4. Для сборки исходников:
-    ```bash
-    npm run build
-    ```
-5. Для запуска `eslint` на коде проекта:
-    ```bash
-    npm run lint
-    ```
-6. Для запуска `eslint` на коде проекта с возможными исправлениями:
-    ```bash
-    npm run lint:fix
-    ```
+1. Use this repository as a template and create your own repository
+2. Clone your repository and install dependencies:
+     ```bash
+     npm i
+     ```
+3. To start the development server with hot realod:
+     ```bash
+     npm run dev
+     ```
+4. To build the sources:
+     ```bash
+     npm run build
+     ```
+5. To run `eslint` on project code:
+     ```bash
+     npm run lint
+     ```
+6. To run `eslint` on the project code with possible corrections:
+     ```bash
+     npm run lint:fix
+     ```
